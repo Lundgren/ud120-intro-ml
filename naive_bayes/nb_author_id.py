@@ -39,7 +39,7 @@ t1 = time()
 clf.predict(features_test)
 print "prediction time:", round(time()-t1, 3), "s" #~0.16s
 
-print "accuracy:", clf.score(features_test, labels_test)
+print "accuracy:", clf.score(features_test, labels_test) #.973
 
 #########################################################
 
